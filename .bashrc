@@ -104,6 +104,10 @@ if [ -f ~/.laptop_bash_aliases ]; then
   . ~/.laptop_bash_aliases
 fi
 
+if [ -f ~/.shared_aliases ]; then
+  . ~/.shared_aliases
+fi
+
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
 # sources /etc/bash.bashrc).

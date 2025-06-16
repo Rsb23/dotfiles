@@ -1,21 +1,5 @@
-# custom cd/clear function
-cd_clear() {
-  cd "$@" && clear && ls
-}
-
-# refined commands
-alias cl='clear && ls'
-alias cd~='cd ~ && cl'
-alias cd='cd_clear'
-alias e='exit'
-alias nvimhere='nvim .'
-alias codehere='code . && e'
-alias codeherebe='open *.pdf && code . && e'
+# commands
 alias leetcode='cd ~/Documents/leetcode/ && codehere'
-# bashrc and conda
-alias tbashrc='tail -n 50 ~/.bashrc'
-alias ebashrc='nvim ~/.bashrc'
-alias sbashrc='source ~/.bashrc'
 alias activateconda='source ~/.conda.bashrc'
 # cd
 alias cdcss='cd /usr/share/themes/Mint-Y-Dark-Aqua/cinnamon/'
@@ -25,10 +9,3 @@ alias cdassignments='cd ~/Documents/college/WSU\ -\ Winter\ 2025/BE1600/Assignme
 alias cdprojects='cd ~/Documents/college/WSU\ -\ Winter\ 2025/BE1600/Projects/'
 alias cdbe1600='cd ~/Documents/college/WSU\ -\ Winter\ 2025/BE1600/'
 alias cdeng='cd ~/Documents/college/WSU\ -\ Winter\ 2025/ENG3050/'
-# i3wm
-alias cdi3='cd ~/.config/i3/'
-alias ei3='cdi3 && nvim config'
-alias cdpicom='cd ~/.config/picom/'
-alias epicom='cdpicom && nvim picom.conf'
-alias cdpoly='cd ~/Downloads/polybar/'
-alias epoly='cdpoly && cd ./doc/ && nvim config'

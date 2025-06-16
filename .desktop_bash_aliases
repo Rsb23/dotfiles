@@ -1,4 +1,4 @@
-# custom alias
+# cd customize cinnamon css
 alias cdcss='cd /usr/share/themes/Mint-Y-Dark-Aqua/cinnamon'
 # GMMK
 alias cdqmkgmmk='cd ~/qmk_firmware/keyboards/gmmk/pro/rev1/ansi/keymaps/'
@@ -6,7 +6,6 @@ alias cdqmkgmmktesting='cd ~/qmk_firmware/keyboards/gmmk/pro/rev1/ansi/keymaps/t
 alias qmkgmmktesting='qmk compile -kb gmmk/pro/rev1/ansi -km testing && qmk flash -kb gmmk/pro/rev1/ansi -km testing'
 alias stestingkm='less qmk_firmware/keyboards/gmmk/pro/rev1/ansi/keymaps/testing/keymap.c'
 # commands
-alias pinggoogle='ping www.google.com'
 alias showtd='cd /mnt/sda4/ && nvim to_download.txt'
 alias organizet='python3 ~/Documents/python/Torrent\ Organizer/mover.py'
 alias sshv='ssh karamello@8.tcp.ngrok.io -p 15984'
@@ -17,18 +16,8 @@ alias cdmovies='cd /mnt/sda4/Movies/'
 alias cdshows='cd /mnt/sda4/Shows/'
 alias cdpersonal='cd /mnt/sda5/personal/'
 alias cdcollege='cd /mnt/sda5/college/'
-# refined commands
-alias cl='clear && l'
-alias kindly='sudo'
-alias e='exit'
-alias n='nvim'
-alias cd~='cd ~'
 # cd programming directories
 alias cdscripts='cd ~/Documents/scripts/'
 alias cdcpp='cd ~/Documents/c++/'
 alias cdpy='cd ~/Documents/python/'
 alias cdwdp='cd ~/Documents/web_dev/Personal/'
-# bashrc
-alias tbashrc='tail -n 50 ~/.bashrc'
-alias ebashrc='sudo nvim ~/.bashrc'
-alias sbashrc='source ~/.bashrc'
