@@ -1,4 +1,4 @@
-#!/bin/bash/
+#!/bin/bash
 
 dotfiles_dir="~/Documents/dotfiles/"
 
