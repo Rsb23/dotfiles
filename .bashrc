@@ -100,8 +100,12 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-if [ -f ~/.laptop_bash_aliases ]; then
-  . ~/.laptop_bash_aliases
+if [ -f ~/.laptop_aliases ]; then
+  . ~/.laptop_aliases
+fi
+
+if [ -f ~/.desktop_aliases ]; then
+  . ~/.desktop_aliases
 fi
 
 if [ -f ~/.shared_aliases ]; then
