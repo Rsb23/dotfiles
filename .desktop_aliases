@@ -1,14 +1,8 @@
 # cd customize cinnamon css
 alias cdcss='cd /usr/share/themes/Mint-Y-Dark-Aqua/cinnamon'
-# GMMK
-alias cdqmkgmmk='cd ~/qmk_firmware/keyboards/gmmk/pro/rev1/ansi/keymaps/'
-alias cdqmkgmmktesting='cd ~/qmk_firmware/keyboards/gmmk/pro/rev1/ansi/keymaps/testing/'
-alias qmkgmmktesting='qmk compile -kb gmmk/pro/rev1/ansi -km testing && qmk flash -kb gmmk/pro/rev1/ansi -km testing'
-alias stestingkm='less qmk_firmware/keyboards/gmmk/pro/rev1/ansi/keymaps/testing/keymap.c'
 # commands
 alias showtd='cd /mnt/sda4/ && nvim to_download.txt'
 alias organizet='python3 ~/Documents/python/Torrent\ Organizer/mover.py'
-alias sshv='ssh karamello@8.tcp.ngrok.io -p 15984'
 alias deepseek='ollama run deepseek-r1:7b'
 # cd
 alias cdtorrents='cd /mnt/sda4/Torrents/'
