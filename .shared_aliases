@@ -12,8 +12,8 @@ alias kindly='sudo'
 alias e='exit'
 alias cd~='cd ~ && cl'
 alias cd='cd_clear'
-alias nvimhere='nvim .'
-alias codehere='code . && e'
+alias nvimh='nvim .'
+alias codeh='code . && e'
 
 # bashrc
 alias tbashrc='tail -n 50 ~/.bashrc'
