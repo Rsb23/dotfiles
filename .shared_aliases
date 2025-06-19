@@ -4,7 +4,7 @@ cd_clear() {
 }
 
 alias pinggoogle='ping www.google.com'
-alias openh='nohup open .'
+alias openh='nohup open . > /dev/null'
 
 # refined base commands
 alias cl='clear && ls'
