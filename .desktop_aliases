@@ -12,6 +12,7 @@ alias cdpersonal='cd /mnt/sda5/personal/'
 alias cdcollege='cd /mnt/sda5/college/'
 # cd programming directories
 alias cdscripts='cd ~/Documents/scripts/'
+alias cddtf='cd ~/Documents/dotfiles/'
 alias cdcpp='cd ~/Documents/c++/'
 alias cdpy='cd ~/Documents/python/'
 alias cdwdp='cd ~/Documents/web_dev/Personal/'
