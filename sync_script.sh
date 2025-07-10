@@ -15,3 +15,4 @@ fi
 ln -sf "$dotfiles_dir/.bashrc" "$HOME/.bashrc"
 ln -sf "$dotfiles_dir/.shared_aliases" "$HOME/.shared_aliases"
 ln -sf "$dotfiles_dir/kitty.conf" "$HOME/.config/kitty/kitty.conf"
+ln -sf "$dotfiles_dir/nvim" "$HOME/.config/"
