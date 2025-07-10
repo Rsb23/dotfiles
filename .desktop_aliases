@@ -10,6 +10,7 @@ alias cdmovies='cd /mnt/sda4/Movies/'
 alias cdshows='cd /mnt/sda4/Shows/'
 alias cdpersonal='cd /mnt/sda5/personal/'
 alias cdcollege='cd /mnt/sda5/college/'
+alias cdqmk='cd ~/qmk_firmware/keyboards/gmmk/pro/rev1/ansi/keymaps/r34_runna/'
 # cd programming directories
 alias cdscripts='cd ~/Documents/scripts/'
 alias cddtf='cd ~/Documents/dotfiles/'
