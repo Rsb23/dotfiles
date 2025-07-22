@@ -5,5 +5,8 @@ return {
   init = function()
     -- VimTeX configuration goes here, e.g.
     vim.g.vimtex_compiler_method = "latexmk"
+    vim.g.vimtex_quickfix_ignore_filters = {
+	    "Overfull \\\\hbox",
+	}
   end
 }
