@@ -6,9 +6,9 @@ return {
 	end
     },
     {
-	'EdenEast/nightfox.nvim',
+	'olimorris/onedarkpro.nvim',
 	config = function()
-	    vim.cmd.colorscheme 'carbonfox'
+	    vim.cmd.colorscheme 'onedark'
 	end
     },
 }
