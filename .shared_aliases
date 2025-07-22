@@ -1,6 +1,18 @@
 # custom cd/clear function
 cd_clear() {
-  cd "$@" && clear && ls
+    cd "$@" && clear && ls
+}
+
+git_a() {
+    git add "$@"
+}
+
+git_c() {
+    git commit -m '"$@"'
+}
+
+git_d(){
+    git diff "$1"
 }
 
 alias pinggoogle='ping www.google.com'
@@ -12,8 +24,21 @@ alias kindly='sudo'
 alias e='exit'
 alias cd~='cd ~ && cl'
 alias cd='cd_clear'
+alias cd..='cd ..'
 alias nvimh='nvim .'
 alias codeh='code . && e'
+
+# cd
+alias cddoc='cd ~/Documents/'
+alias cddow='cd ~/Downloads/'
+alias cddot='cd ~/Documents/dotfiles/'
+
+# git
+alias gits='git status'
+alias gita.='git add .'
+alias gita='git_a'
+alias gitc='git_c'
+alias gitd='git_d'
 
 # bashrc
 alias tbashrc='tail -n 50 ~/.bashrc'
