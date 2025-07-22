@@ -6,6 +6,7 @@ return {
 	configs.setup({
 	    highlight = {
 		enable = true,
+		disable = {"latex"},
 	    },
 	    indent = {
 		enable = true,
@@ -24,7 +25,6 @@ return {
 		'css',
 		'javascript',
 		'java',
-		'latex',
 		'markdown',
 		'nginx',
 		'sql',
