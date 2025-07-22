@@ -11,6 +11,12 @@ git_d(){
     git diff "$1"
 }
 
+git_gcap(){
+    git add .
+    git commit -m "$*"
+    git push
+}
+
 alias pinggoogle='ping www.google.com'
 alias openh='nohup open . > /dev/null & e'
 
@@ -34,7 +40,10 @@ alias gits='git status'
 alias gita.='git add .'
 alias gita='git_a'
 alias gitc='git commit -m'
+alias gituc='git restore --staged $1'  # git uncommit
 alias gitd='git_d'
+alias gitp='git push'
+alias gcap='git_gcap'
 
 # bashrc
 alias tbashrc='tail -n 50 ~/.bashrc'
