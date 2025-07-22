@@ -8,7 +8,7 @@ git_a() {
 }
 
 git_c() {
-    git commit -m \"$*\"
+    git commit -m $* 
 }
 
 git_d(){
