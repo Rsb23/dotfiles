@@ -29,6 +29,8 @@ return {
 		'nginx',
 		'sql',
 		'ssh_config',
+		'ruby',
+		'liquid',
 	    },
 	    auto_install = false
 	})
