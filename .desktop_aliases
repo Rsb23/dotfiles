@@ -16,6 +16,6 @@ alias cdqmk='cd ~/qmk_firmware/keyboards/gmmk/pro/rev1/ansi/keymaps/r34_runna/'
 # cd programming directories
 alias cdscripts='cd ~/Documents/scripts/'
 alias cddtf='cd ~/Documents/dotfiles/'
-alias cdcpp='cd ~/Documents/cpp/
+alias cdcpp='cd ~/Documents/cpp/'
 alias cdpy='cd ~/Documents/python/'
 alias cdwdp='cd ~/Documents/web_dev/Personal/'

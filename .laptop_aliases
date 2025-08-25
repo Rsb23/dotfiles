@@ -1,7 +1,8 @@
 # commands
-alias leetcode='cd ~/Documents/leetcode/ && codehere'
+alias leetcode='cd ~/Documents/leetcode/ && codeh'
 alias activateconda='source ~/.conda.bashrc'
 # cd
 alias cdcss='cd /usr/share/themes/Mint-Y-Dark-Aqua/cinnamon/'
 alias cdpy='cd ~/Documents/python/'
 alias cdphy='cd ~/Documents/OCC/PHY2400/'
+alias wayne='cd ~/Documents/WSU/Fall\ 2025/'
