@@ -4,5 +4,7 @@ alias activateconda='source ~/.conda.bashrc'
 # cd
 alias cdcss='cd /usr/share/themes/Mint-Y-Dark-Aqua/cinnamon/'
 alias cdpy='cd ~/Documents/python/'
-alias cdphy='cd ~/Documents/OCC/PHY2400/'
 alias wayne='cd ~/Documents/WSU/Fall\ 2025/'
+alias csc='cd ~/Documents/WSU/Fall 2025/CSC1100/'
+alias mat='cd ~/Documents/WSU/Fall 2025/MAT2020/'
+alias phy='cd ~/Documents/WSU/Fall 2025/PHY2185/'

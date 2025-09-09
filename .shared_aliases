@@ -29,8 +29,8 @@ alias cd='cd_clear'
 alias cd..='cd ..'
 alias nvimh='nvim .'
 alias codeh='code . && e'
-alias back='cd ..'
-alias back2='cd .. && cd ..'
+alias b='cd ..'
+alias b2='cd .. && cd ..'
 
 # cd
 alias cddoc='cd ~/Documents/'
