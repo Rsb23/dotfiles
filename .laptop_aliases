@@ -1,6 +1,7 @@
 # commands
 alias leetcode='cd ~/Documents/leetcode/ && codeh'
 alias activateconda='source ~/.conda.bashrc'
+alias unotes='cd ~/Documents/Vaults/Notes/ && git pull && nohup open "obsidian://open?vault=Notes&file=T2Do" > /dev/null && e'
 # cd
 alias cdcss='cd /usr/share/themes/Mint-Y-Dark-Aqua/cinnamon/'
 alias wayne='cd ~/Documents/WSU/Fall\ 2025/'
