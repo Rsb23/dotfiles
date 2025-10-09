@@ -3,7 +3,6 @@ alias leetcode='cd ~/Documents/leetcode/ && codeh'
 alias activateconda='source ~/.conda.bashrc'
 # cd
 alias cdcss='cd /usr/share/themes/Mint-Y-Dark-Aqua/cinnamon/'
-alias cdpy='cd ~/Documents/python/'
 alias wayne='cd ~/Documents/WSU/Fall\ 2025/'
 alias csc='cd ~/Documents/WSU/Fall\ 2025/CSC1100/'
 alias mat='cd ~/Documents/WSU/Fall\ 2025/MAT2020/'
