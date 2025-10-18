@@ -4,6 +4,7 @@ alias cdcss='cd /usr/share/themes/Mint-Y-Dark-Aqua/cinnamon'
 alias showtd='cd /mnt/sda4/ && nvim to_download.txt'
 alias organizet='python3 ~/Documents/python/Torrent\ Organizer/mover.py'
 alias qmkcf='qmk compile && qmk flash'
+alias rbl='sudo systemctl restart bluetooth'
 # cd
 alias cdtorrents='cd /mnt/sda4/Torrents/'
 alias cdmovies='cd /mnt/sda4/Movies/'
