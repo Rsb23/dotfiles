@@ -22,7 +22,6 @@ alias openh='nohup open . > /dev/null & e'
 
 # refined base commands
 alias cl='clear && ls'
-alias kindly='sudo'
 alias e='exit'
 alias cd~='cd ~ && cl'
 alias h='cd ~ && cl'
@@ -46,8 +45,3 @@ alias gituc='git restore --staged $1'  # git uncommit
 alias gitd='git_d'
 alias gitp='git push'
 alias gcap='git_gcap'
-
-# bashrc
-alias tbashrc='tail -n 50 ~/.bashrc'
-alias ebashrc='sudo nvim ~/.bashrc'
-alias sbashrc='source ~/.bashrc'
