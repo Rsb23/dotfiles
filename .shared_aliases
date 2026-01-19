@@ -45,3 +45,6 @@ alias gituc='git restore --staged $1'  # git uncommit
 alias gitd='git_d'
 alias gitp='git push'
 alias gcap='git_gcap'
+
+# ssh for kitty
+alias kssh='kitty +kitten ssh'
