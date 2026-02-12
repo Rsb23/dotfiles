@@ -140,3 +140,6 @@ export NVM_DIR="$HOME/.nvm"
 # move to Documents folder and list folders on start
 cd Documents
 cl
+
+# add rocminfo to path
+export PATH=$PATH:/opt/rocm/bin
